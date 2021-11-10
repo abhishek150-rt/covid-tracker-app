@@ -1,9 +1,15 @@
+.covid-table{
+    border:2px solid red;
+    width: 75%;
+    margin: 30px auto;
+}
+
 tr,th,td{
-    font-size: 28px;
+    font-size: 20px;
 }
 @media screen and (max-width:800px){
     tr,th,td{
-        font-size: 20px;
+        font-size: 18px;
     }  
 }
 @media screen and (max-width:600px){
