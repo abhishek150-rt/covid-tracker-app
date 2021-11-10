@@ -11,9 +11,15 @@ tr,th,td{
     tr,th,td{
         font-size: 18px;
     }  
+    .covid-table{
+        width: 100%;
+    }
 }
 @media screen and (max-width:600px){
     tr,th,td{
         font-size: 15px;
     }  
+    .covid-table{
+        width: 100%;
+    }
 }
