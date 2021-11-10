@@ -22,7 +22,7 @@ const Covid = () => {
     return (
         <>
             <h3 className="text-center my-3"><u>Covid Tracker React App</u></h3>
-            <Table striped bordered hover className="mt-5 covid-table" responsive="md">
+            <Table striped bordered hover className="mt-5 covid-table">
                 <thead>
                     <tr>
                         <th>Country</th>
