@@ -1,3 +1,13 @@
 tr,th,td{
     font-size: 28px;
 }
+@media screen and (max-width:800px){
+    tr,th,td{
+        font-size: 20px;
+    }  
+}
+@media screen and (max-width:600px){
+    tr,th,td{
+        font-size: 15px;
+    }  
+}
