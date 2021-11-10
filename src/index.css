@@ -1,13 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    width: 100vw;
+    /* place-items: center;
+    display: grid; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+z
+form {
+    width: 80%;
+    margin: auto;
+}
+
+span {
+    font-size: 14px;
+}
+
+#del {
+    cursor: pointer;
+    color: green;
+}
+
+#del:hover {
+    color: red;
+}
+
+.show {
+    display: flex;
+    padding: 10px 0;
+    justify-content:space-between;
+    border-radius: 10px;
 }
