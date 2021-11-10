@@ -3,8 +3,6 @@ import Table from "react-bootstrap/Table";
 import "./covid.css";
 const Covid = () => {
     const [Data, setData] = useState([]);
-    const [date, setDate] = useState("");
-
     useEffect(() => {
         setDate(new Date().toLocaleTimeString())
         async function getData() {
@@ -30,7 +28,7 @@ const Covid = () => {
                         <th>New Cases</th>
                         <th>Total Death</th>
                         <th>New Deaths</th>
-                        <th>Updated</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -44,7 +42,6 @@ const Covid = () => {
                                 <td>{e.NewConfirmed}</td>
                                 <td>{e.TotalDeaths}</td>
                                 <td>{e.NewDeaths}</td>
-                                <td>{date}</td>
                             </tr>
                         )
                     })}
