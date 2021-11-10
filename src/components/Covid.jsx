@@ -4,7 +4,6 @@ import "./covid.css";
 const Covid = () => {
     const [Data, setData] = useState([]);
     useEffect(() => {
-        setDate(new Date().toLocaleTimeString())
         async function getData() {
             try {
                 const result = await fetch(`https://api.covid19api.com/summary`);
