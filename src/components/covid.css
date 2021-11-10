@@ -24,3 +24,6 @@ tr,th,td{
         width: 100%;
     }
 }
+#root{
+    background-color: #ff2255;
+}
